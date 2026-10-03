@@ -1,0 +1,10 @@
+MapReduce makes large data processing easier.
+MapReduce splits work into map tasks and reduce tasks.
+The map phase creates key value pairs.
+The shuffle phase moves keys to the correct reducer.
+The reduce phase combines values for each key.
+Distributed systems must handle failures.
+A failed task can be retried on another worker.
+Another worker can finish the failed task.
+Shuffle is often expensive because it moves data across the network.
+A combiner can reduce the amount of data sent during shuffle.
